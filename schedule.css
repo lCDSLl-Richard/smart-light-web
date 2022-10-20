@@ -1,3 +1,10 @@
+/* Icon Styles */
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  font-size: 80px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -103,10 +110,39 @@
   height: 42px;
   border: none;
   font-size: 18px;
+  margin-right: 60px;
+}
+
+.add-button {
+  font-size: 48px;
+  color: #fff;
+  position: relative;
+}
+
+.add-button span {
+  position: absolute;
+  left: 30px;
+  bottom: 21px;
+}
+
+.add-button:hover {
+  cursor: pointer;
+}
+.add-button:active {
+  transform: translateY(1px);
 }
 
 .main-button:active {
   transform: translateY(2px);
+}
+
+.main-button:hover {
+  cursor: pointer;
+}
+
+.add-2 {
+  bottom: -125px;
+  right: 165px;
 }
 
 .main-cards-container {
@@ -171,11 +207,4 @@
   height: 100px;
   width: 120px;
   margin-left: 10px;
-}
-
-/* Icon Styles */
-
-.material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
-  font-size: 80px;
 }
